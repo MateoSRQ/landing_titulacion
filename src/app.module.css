@@ -1,0 +1,143 @@
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+:global(#root) {
+  width: 1366px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.component {
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  margin-top: -5px;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.formcontainer {
+  position: absolute;
+  right: 70px;
+  top: 260px;
+  width: 420px;
+  padding: 24px;
+}
+
+.formcontainer  * {
+  font-family: "Bebas Neue", cursive;
+  /*font-size: 24px !important;*/
+}
+
+.formcontainer :global(.ant-form-item) {
+  margin-bottom: 12px !important;
+}
+
+.formcontainer :global(.ant-btn) {
+  /*padding-top: 24px !important;*/
+  /*padding: 28px !important;*/
+}
+
+.formcontainer :global(.ant-btn) span {
+  /*padding-top: 24px !important;*/
+  /*position: absolute;*/
+  /*top: 5px;*/
+  /*width: 100%;*/
+  /*left: 0;*/
+  /*text-align: center;*/
+  /*font-size: 32px !important;*/
+}
+
+.formcontainer :global(.ant-btn):hover span {
+  /*padding-top: 24px !important;*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*left: 0;*/
+  /*text-align: center;*/
+  /*font-size: 32px !important;*/
+}
+
+
+
+.slip {
+  width: 100%;
+  margin-top: -5px;
+}
+
+.slip img {
+  width: 100%;
+}
+
+
+.modeA {
+  width: 100%;
+  margin-top: -5px;
+}
+
+.modeA img {
+  width: 100%;
+}
+
+.modeB {
+  width: 100%;
+  margin-top: -5px;
+}
+
+.modeB img {
+  width: 100%;
+}
+
+.videos{
+  width: 100%;
+  margin-top: -5px;
+  position: relative;
+}
+
+.videos img {
+  width: 100%;
+}
+
+
+.videocontainer {
+  width: calc(100% - 40px);
+  height: 300px;
+  position: absolute;
+  top: 180px;
+  left: 20px;
+}
+
+.videoitem {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+
+}
+
+.nets{
+  width: 100%;
+  margin-top: -5px;
+  position: relative;
+}
+
+.nets img {
+  width: 100%;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+}
