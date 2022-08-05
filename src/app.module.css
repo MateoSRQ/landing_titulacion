@@ -8,7 +8,8 @@ html, body {
 }
 
 :global(#root) {
-  width: 1366px;
+  max-width: 1366px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -77,6 +78,14 @@ html, body {
 
 .slip img {
   width: 100%;
+}
+
+.bContainer {
+  position: absolute;
+  right: 70px;
+  top: 260px;
+  width: 420px;
+  padding: 24px;
 }
 
 

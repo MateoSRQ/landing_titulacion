@@ -11,6 +11,8 @@
   "dependencies": {
     "@fontsource/bebas-neue": "^4.5.7",
     "antd": "^4.21.6",
+    "axios": "^0.27.2",
+    "node-mailjet": "^5.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
